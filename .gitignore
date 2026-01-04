@@ -1,18 +1,13 @@
-# Environments
-venv/
-.env
+# data
+data/
 
-# Python cache
+# outputs
+outputs/
+
+# model weights
+*.pth
+
+# environment
+.env
 __pycache__/
 *.pyc
-
-# Data (raw & heavy)
-data/images/
-data/raw/
-
-# Jupyter
-.ipynb_checkpoints/
-
-# OS junk
-.DS_Store
-Thumbs.db
